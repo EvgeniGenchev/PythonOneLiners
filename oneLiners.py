@@ -12,3 +12,6 @@ print([num for num in range(1, 1000) if num % 3 == 0])
 
 # prints a boolean list on whether or not the input list values are bigger than 0
 print([True if num > 0 else False for num in [int(num) for num in input().split()]])
+
+# prints whether or not word is palindrome
+print("Palindrome" if word == word[::-1] else "Not palindrome")

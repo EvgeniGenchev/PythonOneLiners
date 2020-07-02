@@ -15,3 +15,6 @@ print([True if num > 0 else False for num in [int(num) for num in input().split(
 
 # prints whether or not word is palindrome
 print("Palindrome" if word == word[::-1] else "Not palindrome")
+
+# prints if an year is leap or not
+print("Leap" if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0 else "Ordinary")

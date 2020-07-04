@@ -19,5 +19,6 @@ print("Palindrome" if word == word[::-1] else "Not palindrome")
 # prints if an year is leap or not
 print("Leap" if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0 else "Ordinary")
 
-# prints all the uppercasing permutations of a word
+# prints all the uppercasing permutations of a word 
+# import itertools as it : i do not consider the import part of the one liner 
 print(list(map(''.join, it.product(*((c.upper(), c.lower()) for c in word)))))

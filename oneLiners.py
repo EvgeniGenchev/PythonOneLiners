@@ -18,3 +18,6 @@ print("Palindrome" if word == word[::-1] else "Not palindrome")
 
 # prints if an year is leap or not
 print("Leap" if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0 else "Ordinary")
+
+#prints a 5x5 matrix full of zeros 
+print([[0 for _ in range(5) ] for _ in range(5)])

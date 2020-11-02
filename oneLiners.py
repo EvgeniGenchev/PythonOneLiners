@@ -22,3 +22,6 @@ print("Leap" if (year % 4 == 0 and year % 100 != 0) or year % 400 == 0 else "Ord
 # prints all the uppercasing permutations of a word 
 # import itertools as it : i do not consider the import part of the one liner 
 print(list(map(''.join, it.product(*((c.upper(), c.lower()) for c in word)))))
+
+#number sum thigy?
+print(sum(int(input(f"Number {n}: ")) for n in range(int(input("How many numbers: ")))))
